@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.Properties.Resources.resources
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Quizgame\bin\Debug\Quizgame.exe.config
+C:\Users\HP\source\repos\Quizgame\bin\Debug\Quizgame.exe
+C:\Users\HP\source\repos\Quizgame\bin\Debug\Quizgame.pdb
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.exe
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.pdb
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormGame.resources
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormHome.resources
+C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormRank.resources

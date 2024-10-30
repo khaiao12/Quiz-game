@@ -34,6 +34,12 @@ namespace Quizgame
             selectedQuestions = GetRandomQuestions(10);
         }
 
+        private List<Question> GetRandomQuestions(int number)
+        {
+            Random random = new Random();
+            return listCauHoi.OrderBy(q => random.Next()).Take(number).ToList();
+        }
+
         private void LoadQuestion()
         {
             if (currentQuestionIndex < selectedQuestions.Count)

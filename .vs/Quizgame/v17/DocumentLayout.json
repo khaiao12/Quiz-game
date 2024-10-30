@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\formrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:formrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|c:\\users\\hp\\source\\repos\\quizgame\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\formgame.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,33 +33,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\question\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:question\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|C:\\Users\\HP\\source\\repos\\Quizgame\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72526B58-A689-4A3E-A6C5-244B695D3244}|Quizgame.csproj|solutionrelative:formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormHome.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormHome.cs",
-              "RelativeDocumentMoniker": "FormHome.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormHome.cs",
-              "RelativeToolTip": "FormHome.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T05:00:24.505Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -68,22 +52,39 @@
               "RelativeDocumentMoniker": "FormGame.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.cs",
               "RelativeToolTip": "FormGame.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwFkAAABYAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswCgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:49:15.455Z",
+              "WhenOpened": "2024-10-30T14:21:50.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormRank.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormRank.cs",
-              "RelativeDocumentMoniker": "FormRank.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormRank.cs [Design]",
-              "RelativeToolTip": "FormRank.cs [Design]",
+              "Title": "FormGame.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.cs",
+              "RelativeDocumentMoniker": "FormGame.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.cs [Design]",
+              "RelativeToolTip": "FormGame.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T05:02:44.633Z",
+              "WhenOpened": "2024-10-11T11:37:32.346Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormHome.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormHome.cs",
+              "RelativeDocumentMoniker": "FormHome.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormHome.cs",
+              "RelativeToolTip": "FormHome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:00:24.505Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +95,8 @@
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormHome.cs [Design]",
               "RelativeToolTip": "FormHome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T04:58:23.63Z"
+              "WhenOpened": "2024-10-19T04:58:23.63Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -104,9 +106,10 @@
               "RelativeDocumentMoniker": "FormGame.Designer.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.Designer.cs",
               "RelativeToolTip": "FormGame.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAABYAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T09:30:52.216Z"
+              "WhenOpened": "2024-10-16T09:30:52.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,9 +119,10 @@
               "RelativeDocumentMoniker": "Question\\QuestList.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\Question\\QuestList.cs",
               "RelativeToolTip": "Question\\QuestList.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwB0AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:31:59.039Z"
+              "WhenOpened": "2024-10-15T07:31:59.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,30 +134,21 @@
               "RelativeToolTip": "Question\\Question.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAkwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T07:21:31.555Z"
+              "WhenOpened": "2024-10-15T07:21:31.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:37:41.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormGame.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.cs",
-              "RelativeDocumentMoniker": "FormGame.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Quizgame\\FormGame.cs [Design]",
-              "RelativeToolTip": "FormGame.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T11:37:32.346Z"
+              "WhenOpened": "2024-10-11T11:37:41.322Z",
+              "EditorCaption": ""
             }
           ]
         }

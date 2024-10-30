@@ -10,3 +10,15 @@ C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.pdb
 C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormGame.resources
 C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormHome.resources
 C:\Users\HP\source\repos\Quizgame\obj\Debug\Quizgame.FormRank.resources
+D:\Quiz-game\bin\Debug\Quizgame.exe.config
+D:\Quiz-game\bin\Debug\Quizgame.exe
+D:\Quiz-game\bin\Debug\Quizgame.pdb
+D:\Quiz-game\obj\Debug\Quizgame.csproj.AssemblyReference.cache
+D:\Quiz-game\obj\Debug\Quizgame.FormGame.resources
+D:\Quiz-game\obj\Debug\Quizgame.FormHome.resources
+D:\Quiz-game\obj\Debug\Quizgame.FormRank.resources
+D:\Quiz-game\obj\Debug\Quizgame.Properties.Resources.resources
+D:\Quiz-game\obj\Debug\Quizgame.csproj.GenerateResource.cache
+D:\Quiz-game\obj\Debug\Quizgame.csproj.CoreCompileInputs.cache
+D:\Quiz-game\obj\Debug\Quizgame.exe
+D:\Quiz-game\obj\Debug\Quizgame.pdb

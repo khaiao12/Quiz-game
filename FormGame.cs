@@ -25,6 +25,7 @@ namespace Quizgame
             InitializeComponent();
             InitializeQuestions();
             LoadQuestion();
+            playBackBtn.Visible = false; // Ẩn nút playBackBtn khi bắt đầu
         }
 
         private void InitializeQuestions()
@@ -52,15 +53,17 @@ namespace Quizgame
                 radioButtonD.Text = question.OptionD;
                 labelResult.Text = "";
 
-                timeLeft = 30; // Đặt lại thời gian còn lại
-                timerQuestion.Start(); // Bắt đầu Timer
-                UpdateTimerLabel(); // Cập nhật hiển thị thời gian
+                timeLeft = 30;
+                timerQuestion.Start();
+                UpdateTimerLabel();
+                playBackBtn.Visible = false; // Ẩn nút playBackBtn khi đang làm bài
             }
             else
             {
                 labelResult.Text = $"Kết thúc! Điểm số của bạn: {score}/{selectedQuestions.Count}";
                 buttonSubmit.Enabled = false;
-                timerQuestion.Stop(); // Dừng Timer khi hết câu hỏi
+                timerQuestion.Stop();
+                playBackBtn.Visible = true; // Hiển thị nút playBackBtn khi hoàn thành tất cả câu hỏi
             }
         }
 
@@ -107,5 +110,17 @@ namespace Quizgame
             LoadQuestion();
         }
 
+        private void FormGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void playBackBtn_Click(object sender, EventArgs e)
+        {
+            InitializeQuestions(); // Khởi tạo lại danh sách câu hỏi và đặt lại các giá trị
+            LoadQuestion();
+            buttonSubmit.Enabled = true; // Cho phép bấm nút trả lời
+            playBackBtn.Visible = false; // Ẩn nút playBackBtn khi bắt đầu lại
+        }
     }
 }

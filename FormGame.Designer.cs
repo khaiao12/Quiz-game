@@ -38,6 +38,7 @@
             this.labelResult = new System.Windows.Forms.Label();
             this.timerQuestion = new System.Windows.Forms.Timer(this.components);
             this.labelTimer = new System.Windows.Forms.Label();
+            this.playBackBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelQuestion
@@ -127,11 +128,22 @@
             this.labelTimer.TabIndex = 7;
             this.labelTimer.Text = "labelTimer";
             // 
+            // playBackBtn
+            // 
+            this.playBackBtn.Location = new System.Drawing.Point(429, 210);
+            this.playBackBtn.Name = "playBackBtn";
+            this.playBackBtn.Size = new System.Drawing.Size(96, 30);
+            this.playBackBtn.TabIndex = 8;
+            this.playBackBtn.Text = "chơi lại";
+            this.playBackBtn.UseVisualStyleBackColor = true;
+            this.playBackBtn.Click += new System.EventHandler(this.playBackBtn_Click);
+            // 
             // FormGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.playBackBtn);
             this.Controls.Add(this.labelTimer);
             this.Controls.Add(this.labelResult);
             this.Controls.Add(this.buttonSubmit);
@@ -142,6 +154,7 @@
             this.Controls.Add(this.labelQuestion);
             this.Name = "FormGame";
             this.Text = "Trò Chơi Trắc Nghiệm";
+            this.Load += new System.EventHandler(this.FormGame_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +171,7 @@
         private System.Windows.Forms.Label labelResult;
         private System.Windows.Forms.Label labelTimer;
         private System.Windows.Forms.Timer timerQuestion;
+        private System.Windows.Forms.Button playBackBtn;
     }
 }
 

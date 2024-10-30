@@ -15,6 +15,7 @@ namespace Quizgame
     public partial class FormGame : Form
     {
         List<Question> listCauHoi = QuestList.Instance.ListCauHoi;
+        List<Question> selectedQuestions;
         private int currentQuestionIndex;
         private int score;
         private int timeLeft;
@@ -30,13 +31,14 @@ namespace Quizgame
         {
             currentQuestionIndex = 0;
             score = 0;
+            selectedQuestions = GetRandomQuestions(10);
         }
 
         private void LoadQuestion()
         {
-            if (currentQuestionIndex < listCauHoi.Count)
+            if (currentQuestionIndex < selectedQuestions.Count)
             {
-                var question = listCauHoi[currentQuestionIndex];
+                var question = selectedQuestions[currentQuestionIndex];
                 labelQuestion.Text = question.Text;
                 radioButtonA.Text = question.OptionA;
                 radioButtonB.Text = question.OptionB;
@@ -50,7 +52,7 @@ namespace Quizgame
             }
             else
             {
-                labelResult.Text = $"Kết thúc! Điểm số của bạn: {score}/{listCauHoi.Count}";
+                labelResult.Text = $"Kết thúc! Điểm số của bạn: {score}/{selectedQuestions.Count}";
                 buttonSubmit.Enabled = false;
                 timerQuestion.Stop(); // Dừng Timer khi hết câu hỏi
             }
@@ -85,7 +87,7 @@ namespace Quizgame
             else if (radioButtonC.Checked) selectedOption = radioButtonC.Text;
             else if (radioButtonD.Checked) selectedOption = radioButtonD.Text;
 
-            if (selectedOption == listCauHoi[currentQuestionIndex].CorrectAnswer)
+            if (selectedOption == selectedQuestions[currentQuestionIndex].CorrectAnswer)
             {
                 score++;
                 labelResult.Text = "Đúng!";

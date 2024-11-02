@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quizgame
 {
-    public partial class FormRank : Form
+    public partial class FormScore : Form
     {
-        public FormRank()
+        public FormScore()
         {
             InitializeComponent();
         }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonStart = new System.Windows.Forms.Button();
-            this.buttonToplist = new System.Windows.Forms.Button();
+            this.buttonScore = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonStart
@@ -42,21 +42,22 @@
             this.buttonStart.UseVisualStyleBackColor = true;
             this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
             // 
-            // buttonToplist
+            // buttonScore
             // 
-            this.buttonToplist.Location = new System.Drawing.Point(457, 166);
-            this.buttonToplist.Name = "buttonToplist";
-            this.buttonToplist.Size = new System.Drawing.Size(116, 71);
-            this.buttonToplist.TabIndex = 1;
-            this.buttonToplist.Text = "RANK";
-            this.buttonToplist.UseVisualStyleBackColor = true;
+            this.buttonScore.Location = new System.Drawing.Point(457, 166);
+            this.buttonScore.Name = "buttonScore";
+            this.buttonScore.Size = new System.Drawing.Size(116, 71);
+            this.buttonScore.TabIndex = 1;
+            this.buttonScore.Text = "SCORE";
+            this.buttonScore.UseVisualStyleBackColor = true;
+            this.buttonScore.Click += new System.EventHandler(this.buttonScore_Click);
             // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonToplist);
+            this.Controls.Add(this.buttonScore);
             this.Controls.Add(this.buttonStart);
             this.Name = "FormHome";
             this.Text = "FormHome";
@@ -67,6 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonStart;
-        private System.Windows.Forms.Button buttonToplist;
+        private System.Windows.Forms.Button buttonScore;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Quizgame
 {
-    partial class FormRank
+    partial class FormScore
     {
         /// <summary>
         /// Required designer variable.
